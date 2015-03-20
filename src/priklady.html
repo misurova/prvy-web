@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>title</title>
     <link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../menu.css">
   </head>
   <body>
   
@@ -11,24 +12,46 @@
           <header>
 		<!--<h1>MySql</h1>-->
 		<nav>
-			<ul>
-			<li><a href="../index.html">História</a></li>
-				<li><a href="priklady.html">Príklady</a></li>
-				<li><a href="uzitocne.html">Užitočné odkazy</a></li>
-			
-			</ul>
+		
+			<div id='cssmenu'>
+				<ul>
+				   <li><a href="../index.html"><span>História</span></a></li>
+				   <li class='active'><a href='priklady.html'><span>Príklady</span></a></li>
+				   <li><a href='uzitocne.html'><span>Užitočné odkazy</span></a></li>
+				  
+				</ul>
+				</div>
 		</nav>
 		  <div class="header-img" >
 		
 			</div>
 			<div class="clear">
+			</div>
 	    </header>
 		<section>
-      	  <h2>Príklady</h2>
 		  <article>
+      	  <h2>Príklady</h2>
+		
+		  <h3>Vytvorenie novej tabuľky</h3>
+		  
+		  <code>create table student <br>( <br>
+		  id_student int (1,1) primary key,<br>
+		  meno varchar(50),<br>
+		  priezvisko varchar(50),<br>
+		  body int <br>)
+		  </code>
+		  <h3>Vlozenie zaznamu do tabulky</h3>
+		  <code>insert into student(meno,priezvisko,body)<br>
+		  values(Katarína,Mišurová,75)<br>
+		  insert into student(meno,priezvisko,body)<br>
+		  values(Jozef,Mráček,93)<br>
+		  insert into student(meno,priezvisko,body)<br>
+		  values(Petr,zbudil,42)
+		  </code>
+		  
 		  <h3>Zobrazenie všetkých záznamov z tabuľky</h3>
 		  <code>select*from table</code>
-		  <table>
+		  <table >
 					  <tr>
 						<th>Meno</th>
 						<th>Priezvisko</th>		
@@ -53,9 +76,11 @@
 		  </article>
 		</section>
 	</main>
-  </body>
-   <footer>
+	 <footer>
 		<p>Copyright 2015 Katarína Mišurová</p>
 	 </footer>
+
+  </body>
+
 
   </html>

@@ -17,12 +17,17 @@ header .header-img {
 	float: left; 
 	background: url('img/sql.png')50% no-repeat; 
 	background-size: 50%; 
-	width: 610px; 
-	height: 105px;"
+	width: 600px; 
+	height: 100px;
+	margin-bottom:20px;
 }
 
 header img {
 	width: 310px;
+}
+
+nav {
+	float: left;
 }
 
 nav ul {
@@ -36,5 +41,36 @@ nav ul {
 .clear { 
 	clear: both;
 }
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+table.link{
+border:0;
+}
+
+article{padding: 20px;}
+p{margin-bottom: 40px;}
+
+footer{
+color:white;
+}
+
+img{
+max-height: 50px;
+min-height:10px;
+
+}
+
+
 
 

@@ -4,32 +4,54 @@
     <meta charset="utf-8">
     <title>title</title>
     <link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../menu.css">
   </head>
   <body>
       <main class="center">
           <header>
 			<!--<h1>MySql</h1>-->
 		<nav>
-			<ul>
-				<li><a href="../index.html">História</a></li>
-				<li><a href="priklady.html">Príklady</a></li>
-				<li><a href="uzitocne.html">Užitočné odkazy</a></li>
-			</ul>
+			
+			<div id='cssmenu'>
+				<ul>
+				   <li ><a href="../index.html"><span>História</span></a></li>
+				   <li><a href='priklady.html'><span>Príklady</span></a></li>
+				   <li class='active'><a href='uzitocne.html'><span>Užitočné odkazy</span></a></li>
+				  
+				</ul>
+				</div>
 		</nav>
 		<div class="header-img" >
 		
 			</div>
 			<div class="clear">
+			</div>
 	    </header>
+		<article>
       	  <h2>Užitočné odkazy</h2>
 		  <h3>Základy Sql</h3>
-		     <a href="http://www.sqlcourse.com/" target="_blank">sqlcourse.com</a>
-			 <a href="http://www.sqlcourse.com/" target="_blank">sqlcourse.com</a>
-			 <a href="http://www.sqlcourse.com/" target="_blank">sqlcourse.com</a>
+			 	<table class="link">
+					
+					  <tr>
+						<td><a href="http://www.sqlcourse.com/" target="_blank">sqlcourse.com</a></td>
+						<td> <img src="../img/sqlsource.gif" alt="sql_source" ></td>		
+					  </tr>
+					  <tr>
+						<td><a href="http://www.w3schools.com/sql/" target="_blank">W3school</a></td>
+						<td><img src="../img/w3schools-logo.jpg" alt="w3schools" ></td>		
+					  </tr>
+					    <tr>
+						<td> <a href="http://www.tutorialspoint.com/sql/" target="_blank">tutorialspoint.com</a></td>
+						<td> <img src="../img/sql-mini-logo.png" alt="tutorialspoint" ></td>		
+					  </tr>
+				</table>
+		</article>		
 	  </main>
-  </body>
-   <footer>
+	  
+	  <footer>
 		<p>Copyright 2015 Katarína Mišurová</p>
 	 </footer>
+  </body>
+   
 
   </html>
